@@ -15,34 +15,28 @@ public class SortWithShuffle {
             x[i] = i; // sorted
             //x[i] = x.length - i;//descending
         }
-        //System.out.println(Arrays.toString(x));
         int[] x1 = Arrays.copyOf(x, x.length);
         int[] x2 = Arrays.copyOf(x, x.length);
 
         int low = 0;
         int high = x.length - 1;
 
-        long current1 = System.currentTimeMillis();
         quickSort(x1, low, high);
-        System.out.println(System.currentTimeMillis() - current1);
 
-        long current2 = System.currentTimeMillis();
         shuffleArray(x2);
         quickSort(x2, low, high);
-        System.out.println(System.currentTimeMillis() - current2);
     }
 
     static void shuffleArray(int[] ar)
     {
-        // If running on Java 6 or older, use `new Random()` on RHS here
         Random rnd = ThreadLocalRandom.current();
         for (int i = ar.length - 1; i > 0; i--)
         {
             int index = rnd.nextInt(i + 1);
-            // Simple swap
-            int a = ar[index];
+
+            int temp = ar[index];
             ar[index] = ar[i];
-            ar[i] = a;
+            ar[i] = temp;
         }
     }
 
