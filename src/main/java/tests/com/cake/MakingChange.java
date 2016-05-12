@@ -22,12 +22,13 @@ public class MakingChange {
         if(total == sum) {all.add(used); return all;}
 
         for (int i=0; i<den.size(); i++) {
-            ArrayList<Integer> remaining = new ArrayList<Integer>();
+            ArrayList<Integer> remaining = new ArrayList();
+            total = 0;
             int n = den.get(i);
             for (int j=i+1; j<den.size();j++) remaining.add(den.get(j));
             ArrayList<Integer> partial_rec = new ArrayList<Integer>(used);
             partial_rec.add(n);
-            return makeChangeRecursive(remaining, total + den.get(i), partial_rec, all);
+            makeChangeRecursive(remaining, total + n, partial_rec, all);
 
         }
 
