@@ -1,6 +1,6 @@
 package tests.com.cake.isTreeBST;
 
-import tests.com.cake.superbalancedtree.*;
+import tests.com.cake.util.BinaryTreeNode;
 
 /**
  * Created by ishishov on 5/13/16.

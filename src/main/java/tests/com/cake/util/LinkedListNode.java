@@ -1,4 +1,4 @@
-package tests.com.cake.reverceLinkedList;
+package tests.com.cake.util;
 
 /**
  * Created by ishishov on 5/14/16.
@@ -11,4 +11,8 @@ public class LinkedListNode {
         this.value = value;
     }
 
+    @Override
+    public String toString() {
+        return "(" + value + ")";
+    }
 }

@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by ishishov on 5/11/16.
  */
-public class SortWithShuffle {
+public class QuickSortWithShuffle {
     public static void main(String[] args) {
         int[] x = new int[10000000];
         for(int i=0;i<x.length;i++){

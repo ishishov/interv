@@ -1,4 +1,6 @@
-package tests.com.cake.rectangularlove;
+package tests.com.cake;
+
+import tests.com.cake.util.Rectangle;
 
 /**
  * Created by ishishov on 5/13/16.

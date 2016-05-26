@@ -1,5 +1,5 @@
-import tests.com.cake.AppleStocksNotSameDay;
-import tests.com.cake.AppleStocksSameDay;
+import tests.com.cake.appleStocks.AppleStocksNotSameDay;
+import tests.com.cake.appleStocks.AppleStocksSameDay;
 import org.junit.Assert;
 import org.junit.Test;
 

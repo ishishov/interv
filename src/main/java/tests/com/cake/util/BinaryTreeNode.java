@@ -1,4 +1,4 @@
-package tests.com.cake.isTreeBST;
+package tests.com.cake.util;
 
 /**
  * Created by ishishov on 5/13/16.

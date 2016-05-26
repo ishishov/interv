@@ -1,6 +1,7 @@
 package tests.com.cake.superbalancedtree.iterative;
 
-import tests.com.cake.superbalancedtree.BinaryTreeNode;
+
+import tests.com.cake.util.BinaryTreeNode;
 
 /**
  * Created by ishishov on 5/13/16.

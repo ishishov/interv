@@ -1,6 +1,7 @@
-package tests.com.cake.reverceLinkedList;
+package tests.com.cake;
 
 import sun.awt.image.ImageWatched;
+import tests.com.cake.util.LinkedListNode;
 
 /**
  * Created by ishishov on 5/14/16.
@@ -14,7 +15,7 @@ public class ReverseLinkedList {
         node.next.next.next = new LinkedListNode(4);
     }
 
-    private static LinkedListNode reverse(LinkedListNode node) {
+    public static LinkedListNode reverse(LinkedListNode node) {
         LinkedListNode current = node;
         LinkedListNode prev = null;
         while (current != null) {

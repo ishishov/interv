@@ -1,9 +1,9 @@
-package tests.com.cake.fibonacci;
+package tests.com.cake;
 
 /**
  * Created by ishishov on 5/14/16.
  */
-public class Fibo {
+public class Fibonacci {
 
     public static void main(String[] args) {
         System.out.println(fiboBottomUp(9));

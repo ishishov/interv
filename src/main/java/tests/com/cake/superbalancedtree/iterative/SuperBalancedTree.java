@@ -1,6 +1,6 @@
 package tests.com.cake.superbalancedtree.iterative;
 
-import tests.com.cake.superbalancedtree.BinaryTreeNode;
+import tests.com.cake.util.BinaryTreeNode;
 
 import java.util.*;
 
@@ -29,6 +29,7 @@ public class SuperBalancedTree {
                 if (node.right != null) nodes.push(new NodeWithDepth(node.right, nwd.depth + 1));
             }
         }
+
         return depths.size() == 2;
     }
 

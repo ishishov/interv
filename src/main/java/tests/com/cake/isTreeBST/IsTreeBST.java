@@ -1,5 +1,7 @@
 package tests.com.cake.isTreeBST;
 
+import tests.com.cake.util.BinaryTreeNode;
+
 import java.util.Stack;
 
 /**

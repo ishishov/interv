@@ -1,4 +1,6 @@
-package tests.com.cake.LinkedListLoop;
+package tests.com.cake;
+
+import tests.com.cake.util.LinkedListNode;
 
 /**
  * Created by ishishov on 5/14/16.

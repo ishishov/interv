@@ -1,4 +1,4 @@
-package tests.com.cake;
+package tests.com.cake.appleStocks;
 
 import java.util.Arrays;
 

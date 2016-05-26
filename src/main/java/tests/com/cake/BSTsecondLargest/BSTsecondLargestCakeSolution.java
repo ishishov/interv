@@ -1,5 +1,7 @@
 package tests.com.cake.BSTsecondLargest;
 
+import tests.com.cake.util.BinaryTreeNode;
+
 /**
  * Created by ishishov on 5/14/16.
  */

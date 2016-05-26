@@ -1,4 +1,4 @@
-package tests.com.cake.rectangularlove;
+package tests.com.cake.util;
 
 /**
  * Created by ishishov on 5/13/16.
@@ -6,12 +6,12 @@ package tests.com.cake.rectangularlove;
 public class Rectangle {
 
         // coordinates of bottom left corner
-        Integer leftX;
-        Integer bottomY;
+        public Integer leftX;
+        public Integer bottomY;
 
         // dimensions
-        Integer width;
-        Integer height;
+        public Integer width;
+        public Integer height;
 
         public Rectangle(Integer leftX, Integer bottomY, Integer width, Integer height) {
             this.leftX = leftX;
