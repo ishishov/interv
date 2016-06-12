@@ -21,7 +21,7 @@ public class SuperBalancedTree {
 
             if(node.left == null && node.right == null && !depths.contains(nwd.depth)) {
                 depths.add(nwd.depth);
-                if(depths.size() > 3) return false;
+                if(depths.size() >= 3) return false;
                 if(depths.size() == 2 && Math.abs(depths.get(0) - depths.get(1)) > 1) return false;
             }
             else {

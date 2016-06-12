@@ -9,7 +9,7 @@ public class HiCal {
 
     static class Meeting {
         public int start = 0;
-                public int end = 0;
+        public int end = 0;
         public Meeting(int a, int b) {
             start = a; end = b;
         }

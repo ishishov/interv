@@ -9,7 +9,7 @@ public class CorrectParenthesis {
 
     public static void main(String[] args) {
 
-        String s = "{}{()}{}}";
+        String s = "{(}){()}{}}";
 
         Stack<Character> stack = new Stack();
         int i = 0;

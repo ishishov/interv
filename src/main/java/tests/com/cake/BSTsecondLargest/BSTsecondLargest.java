@@ -8,7 +8,12 @@ import tests.com.cake.util.BinaryTreeNode;
 public class BSTsecondLargest {
 
     public static int findSecondLargest(BinaryTreeNode root) {
-        if (root.right == null) return root.left.value;
+        if (root.right == null)
+            if (root.left != null)
+                return root.left.value;
+            else throw new IllegalArgumentException();
+
+
         BinaryTreeNode parent = null;
         while (root.right != null) {
             parent = root;

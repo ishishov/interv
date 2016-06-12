@@ -10,7 +10,6 @@ import java.util.Stack;
 public class IsTreeBST {
 
     private static boolean isBST(BinaryTreeNode nodeUnBalanced) {
-        BinaryTreeNode parent = null;
 
         Stack<NodeLowerUpper> nodes = new Stack();
         nodes.push(new NodeLowerUpper(nodeUnBalanced, Integer.MIN_VALUE, Integer.MAX_VALUE));

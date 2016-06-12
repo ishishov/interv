@@ -11,7 +11,7 @@ public class CakeThiefMySolution {
         CakeType[] cakeTypes = new CakeType[]{
                 new CakeType(7, 160),
                 new CakeType(3, 90),
-                new CakeType(0, 0),
+                new CakeType(2, 15),
         };
 
         int capacity = 20;
