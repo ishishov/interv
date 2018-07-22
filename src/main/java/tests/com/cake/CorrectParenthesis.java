@@ -9,20 +9,18 @@ public class CorrectParenthesis {
 
     public static void main(String[] args) {
 
-        String s = "{(}){()}{}}";
+        String s = "{(){()}{}}";
 
-        Stack<Character> stack = new Stack();
+        Stack<Character> stack = new Stack<>();
         int i = 0;
         while (i < s.length()){
             char c = s.charAt(i);
-            System.out.println("C: " + c);
             if (!stack.empty() && ((stack.peek() == '{' && c == '}') || (stack.peek() == '(' && c == ')'))) {
                 stack.pop();
             } else {
                 stack.push(c);
             }
-
-            System.out.println("Stack: " + stack);
+            i++;
         }
 
         System.out.println(stack.empty());

@@ -11,7 +11,7 @@ public class IsTreeBST {
 
     private static boolean isBST(BinaryTreeNode nodeUnBalanced) {
 
-        Stack<NodeLowerUpper> nodes = new Stack();
+        Stack<NodeLowerUpper> nodes = new Stack<>();
         nodes.push(new NodeLowerUpper(nodeUnBalanced, Integer.MIN_VALUE, Integer.MAX_VALUE));
 
         while(!nodes.empty()) {

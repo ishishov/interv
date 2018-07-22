@@ -11,8 +11,8 @@ public class StringPermutations {
 
     public static void main(String[] args) {
 
-        String s = "ccccc";
-        Set<String> set = new HashSet();
+        String s = "abc";
+        Set<String> set = new HashSet<>();
         set.add(s.substring(0 ,1));
 
         System.out.println(showPermutations(s, set, 1));
@@ -24,7 +24,7 @@ public class StringPermutations {
 
         if(k == s.length()) return set;
 
-        Set<String> newSet = new HashSet();
+        Set<String> newSet = new HashSet<>();
 
         char c = s.charAt(k);
         for (String st : set) {
